@@ -43,7 +43,7 @@ public class NewRicevimento {
             }
         }
         catch(Exception e){
-                    System.out.println("Errore file xml inesistente!");
+                    System.out.println("Errore file 'ricevimento_docenti.xml' inesistente!");
         }
     }
     
