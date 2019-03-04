@@ -13,7 +13,6 @@ import java.util.Scanner;
  * @author di_lella_andrea
  */
 public class NewRicevimento {
-
     /**
      * @param args the command line arguments
      */
@@ -43,7 +42,9 @@ public class NewRicevimento {
                     break;
             }
         }
-        catch(Exception e){}
+        catch(Exception e){
+                    System.out.println("Errore file xml inesistente!");
+        }
     }
     
 }
